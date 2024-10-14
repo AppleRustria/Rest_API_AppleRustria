@@ -1,0 +1,83 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  body{
+    background: linear-gradient(160deg, #090f45, #004e92); 
+  }
+  /* Container for the whole app */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  /* Heading styles */
+  h1 {
+    margin-bottom: 20px;
+    color: #f8f5f5;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    color: #f5ecec;
+  }
+  
+  /* Button container for earth and mars buttons */
+  .button-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Image container for displaying the images */
+  .image-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Style for images inside the image container */
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+    
+    button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
